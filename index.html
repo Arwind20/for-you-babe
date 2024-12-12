@@ -1,0 +1,124 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>She Walks in Beauty</title>
+    <link rel="stylesheet" href="https://fonts.bunny.net/css?family=aladin:400|almendra:400">
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: 'Almendra', serif;
+        font-size: 1rem;
+        line-height: 1.55;
+        background-color: #000;
+        color: white;
+        min-height: 100svh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      body::before {
+        content: '';
+        position: fixed;
+        inset: 0;
+        background-image: url("https://images.pexels.com/photos/17987276/pexels-photo-17987276/free-photo-of-stars-on-clear-sky.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+        background-position: fixed;
+        background-size: cover;
+        z-index: -1;
+        opacity: 0.5;
+      }
+
+      .wrapper {
+        width: 100%;
+        max-width: 450px;
+        padding: 2rem 2rem 2rem 3rem;
+        background: rgba(255 255 255 / 0.05);
+        backdrop-filter: blur(2px);
+        border-radius: 5px;
+        outline: 1px solid rgba(255 255 255 / 0.15);
+        outline-offset: 8px;
+      }
+
+      h1 {
+        margin: 0;
+        padding: 0;
+        text-transform: capitalize;
+        line-height: 1.5;
+        font-size: 1.3rem;
+      }
+
+      h2 {
+        margin: 0.5rem 0 5rem;
+        font-size: 1rem;
+      }
+
+      p {
+        position: relative;
+        color: rgb(214, 211, 209);
+      }
+
+      p + p {
+        margin-top: 1.5rem;
+      }
+
+      p:first-of-type::first-letter {
+        visibility: hidden;
+        font-size: 0rem;
+      }
+
+      p:first-of-type::before {
+  content: 'S';
+  --clr-stroke: rgba(0 0 0 / 0.5);
+
+  font-family: 'Aladin', handwriting;
+  float: left;
+  font-size: 15rem;
+  font-weight: 800;
+  font-style: italic;
+
+  line-height: 0.95;
+  background-image: url('ganda.jpeg.jpg');
+  background-size: cover; /* Ensure the image covers the entire letter */
+  background-position: 80% right; /* Move the image to the right */
+  color: transparent;
+  background-clip: text;
+  shape-outside: polygon(40px 3px, 122px 75px, 89.28% 62.55%, 45.32% 86.04%, 2.26% 86.63%);
+  margin-left: -2.5rem;
+  margin-top: -4rem;
+  padding-right: 2rem;
+  -webkit-text-stroke: 3px var(--clr-stroke); 
+}
+
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <h1>In Your Eyes, I Find My Home</h1>
+      <h2>Nieon Shane, My love </h2>
+      <p> So much beauty in your eyes I find,<br>
+        They calm my soul and ease my mind.<br>
+        With every blink, I feel so blessed,<br>
+        In those eyes, I see my happiness.<br>
+      </p>
+      <p>
+        Three months with you, and it feels so right,<br>
+        Your eyes shine like stars, lighting up the night.<br>
+        I could stare at them forever, so deep and true,<br>
+        Every glance reminds me how much I love you.<br>
+    
+      </p>
+      <p>
+        Such love I feel with you by my side,<br>
+        Together, nothing we cannot hide.<br>
+        I'm lucky to call you my love, my girl friend,<br>
+        And I'll love you always, till the very end.<br>
+        Happy monthsary, my love!<br>
+      </p>
+    </div>
+  </body>
+  </html>
